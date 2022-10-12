@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+body{
+    width: 50em;
+    margin: 0 auto;
+
+}
+
+#nav1 {
+    width: 15%;
+    background-color: lightgray;
+    position: fixed;
+    overflow: scroll;
+    height: 100%;
+    top: 0;
+    left: 0;
+    
+}
+
+#nav2 {
+    width: 100%;
+    background-color: gray;
+    position: fixed;
+    top: 0;
+    left: 15%;
+    height: 2em;
+}
+
+#nav2 ul {
+    display: flex;
+}
+
+ul {
+    list-style: none;
+}
+
+#nav1 li{
+    margin: 20%;
+}
+
+main {
+    width: 80%;
+    position: fixed;
+    left: 15%;
+    top: 5%;
+    overflow: scroll;
+    height: 100%;
+}
+
+#video-container {
+    display: flex;
+    margin: 2em auto;
+    width: 85%;
+    justify-content: space-between;
+    gap: 2em;
+
+}
+
+/*card*/
+
+.video-template{
+    width: 100%;
+    
+}
+
+.video-image {
+    width: 100%;
+    margin-bottom: 0.5em;
+}
+
+.video-card {
+    display: flex;
+}
+
+.account-logo {
+    width: 15%;
+    margin-right: 0.5em;
+}
+
+.account-image{
+    width: 100%;
+}
+
+
+.video-info h3 {
+    font-size: 1em;
+    margin-bottom: 0.2em;
+    
+}
+
+.video-info h5 {
+    font-size: 0.5em;
+    color: darkgray;
+}
+
+.video-info h6 {
+    font-size: 0.6em;
+    color: darkgray;
+}

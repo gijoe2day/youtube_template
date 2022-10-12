@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+body{
+    width: 62em;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+}
+
+ul {
+    list-style: none;
+}
+
+#nav1 {
+    width: 15%;
+    background-color: yellow;
+    position: fixed;
+    
+    height: auto;
+}
+
+#nav2 {
+    width: 54%;
+    background-color: pink;
+    position: fixed;
+    top: 0;
+    margin-left: 15%
+ 
+}
